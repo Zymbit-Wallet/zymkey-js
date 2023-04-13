@@ -1,6 +1,15 @@
+# zymkey-js
+
 This repository is a Node.js wrapper of Zymbit's C++ API, intended to facilitate interactions between Node.js applications and Zymbit's hardware wallet.
 
-This is not an official Zymbit API, so it has not been robustly tested, and does not have a thorough documentation.
+**Note**: This is not an official Zymbit API, so it has not been robustly tested, and does not have a thorough documentation.
+
+## Table of Contents
+
+- [Supported Functions](#supported-functions)
+- [Resources](#resources)
+
+## Supported Functions
 
 Here is the list of currently supported functions:
 
@@ -26,5 +35,7 @@ Here is the list of currently supported functions:
 20. **getWalletNodeAddrFromKeySlot** - Retrieve the wallet node address associated with a specific key slot.
 21. **getWalletKeySlotFromNodeAddr** - Retrieve the key slot associated with a specific wallet node address.
 22. **getAllocSlotsList** - Get a list of allocated key slots, showing their types and attributes.
+
+## Resources
 
 In order to understand how to call these functions and the return values of each function, refer to [Zymbit's C++ Documentation](https://docs.zymbit.com/api/cpp_api/).
