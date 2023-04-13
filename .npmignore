@@ -1,2 +1,64 @@
+# Logs and databases
+*.log
+*.sqlite
+
+# Operating System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled source code
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages and compressed files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Dependency directories
 node_modules/
+vendor/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Unit test output and coverage
+*.nyc_output
+*.coverage
+*.coveragetmp
+
+# Build and runtime directories
+dist/
 build/
+out/
+bin/
+obj/
+release/
+generated/
+
+# Cache and temporary files
+*.cache
+*.bak
+*.tmp
+*.swp
+*~
