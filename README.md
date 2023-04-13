@@ -6,8 +6,19 @@ This repository is a Node.js wrapper of Zymbit's C++ API, intended to facilitate
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Supported Functions](#supported-functions)
 - [Resources](#resources)
+
+## Installation
+
+Run the following command:
+
+`yarn add zymkey-js`
+
+or
+
+`npm i zymkey-js`
 
 ## Supported Functions
 
