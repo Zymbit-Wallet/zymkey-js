@@ -1,6 +1,6 @@
 {
     "name": "zymkey-js",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Node.js module for interfacing with the Zymbit hardware wallet",
     "private": false,
     "gypfile": true,
