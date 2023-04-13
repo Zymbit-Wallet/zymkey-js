@@ -2,10 +2,21 @@
     "name": "zymkey-js",
     "version": "1.0.0",
     "description": "Node.js module for interfacing with the Zymbit hardware wallet",
-    "private": true,
+    "private": false,
     "gypfile": true,
+    "scripts": {
+        "postinstall": "npm install"
+    },
     "dependencies": {
         "bindings": "~1.2.1",
         "node-addon-api": "^6.0.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zymbit-Wallet/zymkey-js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Zymbit-Wallet/zymkey-js/issues"
+    },
+    "homepage": "https://github.com/Zymbit-Wallet/zymkey-js#readme"
 }
