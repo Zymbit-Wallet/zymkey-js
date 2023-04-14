@@ -4,7 +4,6 @@
     "description": "Node.js module for interfacing with the Zymbit hardware wallet",
     "private": false,
     "gypfile": true,
-    "main": "build/Release/zkAppUtilsJS.node",
     "dependencies": {
         "bindings": "~1.2.1",
         "node-addon-api": "^6.0.0"

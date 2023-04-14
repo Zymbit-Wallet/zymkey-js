@@ -7,6 +7,7 @@ This repository is a Node.js wrapper of Zymbit's C++ API, intended to facilitate
 ## Table of Contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 - [Supported Functions](#supported-functions)
 - [Resources](#resources)
 
@@ -19,6 +20,15 @@ Run the following command:
 or
 
 `npm i zymkey-js`
+
+## Usage
+
+```
+const zkJS = require('zymkey-js/build/Release/zkAppUtilsJS.node')
+const zymkey = new zkJS.zkObj()
+
+zymkey.getTime()
+```
 
 ## Supported Functions
 
